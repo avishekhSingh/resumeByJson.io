@@ -1,0 +1,14 @@
+ol{
+    margin-left: 1%;
+    margin-top: 5px;
+}
+
+table{
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 4px;
+    border: 2px solid gray;
+}
