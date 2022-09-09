@@ -1,3 +1,15 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info{margin-left: 40%;}
+.photo{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
 h1,p{
     text-align: center;
     margin: 0;

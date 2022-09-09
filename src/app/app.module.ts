@@ -10,7 +10,7 @@ import { ObjectiveComponent } from './objective/objective.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
-import { CurrentInfoComponent } from './current-info/current-info.component'
+import { CurrentInfoComponent } from './current-info/current-info.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { CurrentInfoComponent } from './current-info/current-info.component'
     PersonalInfoComponent,
     ProjectsComponent,
     SkillsComponent,
-    CurrentInfoComponent
+    CurrentInfoComponent,
   ],
   imports: [
     BrowserModule,
