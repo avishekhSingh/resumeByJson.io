@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http"
 })
 export class GetResumeService {
 
-  url="https://gist.githubusercontent.com/avishekhSingh/4bf49c030b57d71e60bbdc5ca92f205d/raw/e65ed5a86af29c4f6e71be74e04983557c695d3f/ResumeData.json";
+  url="https://gist.githubusercontent.com/avishekhSingh/4bf49c030b57d71e60bbdc5ca92f205d/raw/ecb38769d58af934d5f0fce6ca6306047d47dfa5/ResumeData.json";
   constructor(private serverRequest:HttpClient) { }                                        //! datatype ==> HttpClient.
 
   //! Fetching data from url.

@@ -12,4 +12,5 @@ export class CurrentInfoComponent implements OnInit {
   ngOnInit(): void {
   }
   @Input() currentInfo:any=[];
+  
 }
