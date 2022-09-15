@@ -1,0 +1,9 @@
+<h2>Frontend Projects</h2>
+<ol>
+    <li *ngFor="let project of frontendProject">
+        <p><strong>{{project.projectName}}</strong></p>
+        <p>{{project.projectWork}}</p>
+        <p><i class="fa-brands fa-github"></i> Github: - <a href="{{project.github}}"> {{project.github}}</a></p>
+    </li>
+</ol>
+
