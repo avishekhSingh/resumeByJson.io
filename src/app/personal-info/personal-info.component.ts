@@ -6,11 +6,6 @@ interface IPersonalInfo {
   linkedIn: string,
   email: string,
   mobileNo: number,
-  birth: string,
-  gender: string,
-  location: string,
-  carrierObjective: string,
-  Summary: [],
 }
 @Component({
   selector: 'app-personal-info',
@@ -28,6 +23,6 @@ export class PersonalInfoComponent implements OnInit {
 
 
   //! Pass the the interface
-  @Input() person: IPersonalInfo | null=null;
+  @Input() person: IPersonalInfo | null = null;
 
 }

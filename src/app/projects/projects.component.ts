@@ -1,4 +1,15 @@
-import { Component, OnInit ,Input} from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
+//! Nested Interface
+interface IProjectsDetails {
+  projectName: string,
+  projectWork: string,
+  objective: string
+}
+interface IProjects {
+  CollageProject:IProjectsDetails,
+  CollageInternship:IProjectsDetails,
+}
 
 @Component({
   selector: 'app-projects',
@@ -11,5 +22,5 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Input() projects:any=[];
+  @Input() projects: IProjects | null = null;
 }

@@ -1,21 +1,11 @@
 <h2>Academic Projects</h2>
-
-<table>
-    <thead>
-        <th>Project Name</th>
-        <th>Projects Details</th>
-        <th>Objective of Project</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>{{projects.CollageProject.projectName}}</td>
-            <td>{{projects.CollageProject.projectWork}}</td>
-            <td>{{projects.CollageProject.objective}}</td>
-        </tr>
-        <tr>
-            <td>{{projects.CollageInternship.projectName}}</td>
-            <td>{{projects.CollageInternship.projectWork}}</td>
-            <td>{{projects.CollageInternship.objective}}</td>
-        </tr>
-    </tbody>
-</table>
+<ol>
+    <li>
+        <p><strong>{{projects?.CollageProject?.projectName}}</strong></p>
+        <p>{{projects?.CollageProject?.projectWork}}</p>
+    </li>
+    <li>
+        <p><strong>{{projects?.CollageInternship?.projectName}}</strong></p>
+        <p>{{projects?.CollageInternship?.projectWork}}</p>
+    </li>
+</ol>

@@ -40,7 +40,7 @@ export class AppComponent {
   date=new Date();
 
   currentDate:string=`0${this.date.getDate()}/0${this.date.getMonth()+1}/${this.date.getFullYear()}`
-  currentInfo:object={
+  currentInfo:any={
     date:this.currentDate,
     currentLocation:"Bhopal"
   }

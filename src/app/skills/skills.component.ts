@@ -1,5 +1,10 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
+interface ISkills {
+  CodingSkill: [],
+  OtherSkill: [],
+  Tools: []
+}
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
@@ -11,5 +16,5 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Input() Skills:any=[];
+  @Input() Skills: ISkills | null= null;
 }

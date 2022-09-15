@@ -1,5 +1,8 @@
 import { Component, OnInit ,Input} from '@angular/core';
-
+interface ICurrentInfo{
+  date:string,
+  currentLocation:string
+}
 @Component({
   selector: 'app-current-info',
   templateUrl: './current-info.component.html',
@@ -11,6 +14,6 @@ export class CurrentInfoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Input() currentInfo:any=[];
+  @Input() currentInfo:ICurrentInfo |null=null;
   
 }
